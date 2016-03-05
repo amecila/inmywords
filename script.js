@@ -13,12 +13,12 @@ for (var i = 0; i < elements.length; i++) {
 }
 
 function changeText(textNode){
-  var text = textnode.nodeValue;
+  var text = textNode.nodeValue;
   
   text = text.replace(/\bRabbit\b/g, "Bunnnyyy");  
   text = text.replace(/\brabbit\b/g, "bunnnyyyy");
   text = text.replace(/\brabbits\b/g, "bunnnieeeeeesssss");
 
-  textNode.nodeValue = v;
+  textNode.nodeValue = text;
   
 }
